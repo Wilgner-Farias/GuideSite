@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+        <title>Guide Vidro e Alumínio</title>
+    </head>
+    <body>
+        <header>
+            <div class="header-fixed">
+                <div class="header-contain">
+                    <div class="header-content">
+                        <div class="logo-container">
+                            <img id="logo-guide" src="images/logo-guide.png" alt="">
+                        </div>
+                        <div class="button-orcamento-container">
+                            <a href="formulario.html"><button id="button-orcamento">Fazer orçamento</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="destaque">
+                <div class="destaque-contain">
+                    <div class="destaque-content">
+                        <div class="destaque-text">
+                            <span>De férias até o dia 03/01</span>
+                        </div>
+                        <div class="destaque-button">
+                            <button id="button-destq">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="text-main-container">
+                <div class="text-main-content">
+                    <p>Na <span>GUIDE VIDRO E ALUMÍNIO</span> você encontra a qualidade e sofisticação que o seu ambiente merece.</p>
+                </div>
+            </div>
+            <div class="pdt-procurados">
+                <div class="pdt-content">
+                    <p><span>Produtos</span> mais procurados</p>
+                </div>
+            </div>
+            <div class="produto-1">
+                <div class="detail-1">
+                    <img id="detalhe-1" src="images/DetalheGuide.png" alt="">
+                </div>
+                <div class="produto-name">
+                    <a href="box.html"><p>Box<br>Frontal</p></a>
+                </div>
+            </div>
+            <div class="produto-2">
+                <div class="produto-name-2">
+                    <a href="guarda-corpo.html"><p>Guarda<br>Corpo</p></a>
+                </div>
+                <div class="detail-2">
+                    <img id="detalhe-2" src="images/DetalheGuide-2.png" alt="">
+                </div>
+            </div>
+            <div class="pdt-button-container">
+                <div class="pdt-button-contain">
+                    <button onclick="abrirInfo1()" id="button-pdt">Mais produtos</button>
+                </div>
+            </div>
+            <div class="divisor"></div>
+            <div class="projetos">
+                <div class="projeto-text">
+                    <p>Alguns dos <span>nossos projetos</span></p>
+                </div>
+            </div>
+            <div class="projeto-1">
+                <div class="projeto-1-container-img">
+                    <div class="projeto-1-img">
+                        <img id="projeto-1-image" src="produtos/guarda-corpo.jpg" alt="">
+                    </div>
+                </div>
+                <div class="projeto-1-container-text">
+                    <div class="projeto-1-text">
+                        <p>Guarda-corpo na torre dourada</p>
+                    </div>
+                </div>
+            </div>
+            <div class="projeto-2">
+                <div class="projeto-2-container-img">
+                    <div class="projeto-2-img">
+                        <img id="projeto-2-image" src="produtos/igreja.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="projeto-2-container-text">
+                    <div class="projeto-2-text">
+                        <p>Fachada de vidro</p>
+                    </div>
+                </div>
+            </div>
+            <div class="projeto-3">
+                <div class="projeto-3-container-img">
+                    <div class="projeto-3-img">
+                        <img id="projeto-3-image" src="produtos/porta.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="projeto-3-container-text">
+                    <div class="projeto-3-text">
+                        <p>Porta de vidro 3 folhas</p>
+                    </div>
+                </div>
+            </div>
+            <div class="divisor"></div>
+            <div class="opinion-container">
+                <div class="opinion-text">
+                    <p>Depoimento de <span>clientes</span></p>
+                </div>
+            </div>
+            <div class="img-opinion-div-1">
+                <div class="img-opinion-content-1">
+                    <img id="depoimento-1" src="images/depoimento.jpeg" alt="">
+                </div>
+            </div>
+            <div class="img-opinion-div-2">
+                <div class="img-opinion-content-2">
+                    <img id="depoimento-2" src="images/depoimento.jpeg" alt="">
+                </div>
+            </div>
+            <div class="img-opinion-div-3">
+                <div class="img-opinion-content-3">
+                    <img id="depoimento-3" src="images/depoimento.jpeg" alt="">
+                </div>
+            </div>
+            <div class="img-opinion-div-4">
+                <div class="img-opinion-content-4">
+                    <img id="depoimento-4" src="images/depoimento.jpeg" alt="">
+                </div>
+            </div>
+            <div class="divisor"></div>
+            <div class="localizacao-div">
+                <div class="localizacao-text">
+                    <p>Onde estamos <span>localizados?</span></p>
+                </div>
+            </div>
+            <div class="maps-container">
+                <div class="maps-content">
+                    <img id="maps" src="images/maps.png" alt="">
+                </div>
+            </div>
+            <div class="maps-text-container">
+                <div class="maps-text-content">
+                    <p>R. João Dártora - Jardim Sao Francisco, Caieiras - SP, 07700-005</p>
+                </div>
+            </div>
+            <div class="button-map-div">
+                <div class="button-map-content">
+                    <a href="https://www.google.com/maps/place/Vidra%C3%A7aria+Pontual+Guide/@-23.358475,-46.7417139,20z/data=!4m9!1m2!2m1!1sgoogle+maps!3m5!1s0x94cee48703a13197:0x364010e603094c8b!8m2!3d-23.3584753!4d-46.7411452!16s%2Fg%2F11f03hmw2_"><button id="btn-map">Ver no mapa</button></a>
+                </div>
+            </div>
+            <div class="divisor"></div>
+        </main>
+        <div class="info-1-div">
+            <div class="info-1-content">
+                <div class="info-1-information">
+                    <h1>Sobre nós</h1>
+                </div>
+                <div class="info-1-text">
+                    <p>A Guide está no mercado a mais de sete anos, sempre trazendo 
+                        o melhor serviço para os seus cliente.
+                    </p>
+                </div>
+                <div class="info-1-button">
+                    <button id="button-info-1" onclick="fecharInfo1()">Fechar</button>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="information-div">
+                <div class="information-content">
+                    <div class="up-information">
+                        <button id="info-1" class="btn-footer" onclick="abrirInfo1()">Sobre nós</button>
+                        <button id="info-2" class="btn-footer">Contato</button>
+                        <button id="info-3" class="btn-footer">Tenho duvidas</button>
+                        <button id="info-4" class="btn-footer">Linhas que trabalhamos</button>
+                        <button id="info-5" class="btn-footer">Formas de pagamento</button>
+                        <!-- <ul>
+                            <li onclick="abrirInfo1()" id="info-1">Sobre nós</li>
+                            <li id="info-2">Contato</li>
+                            <li id="info-3">Estou com dúvida</li>
+                            <li id="info-4">Linhas que trabalhamos</li>
+                            <li id="info-5">Formas de pagamento</li>
+                        </ul> -->
+                    </div>
+                    <div class="down-information">
+                        <p id="guide-register">Guide Vidro e Alumínio © 2023</p>
+                        <a href="https://github.com/Wilgner-Farias"><p>Wilgner Farias</p></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
