@@ -257,13 +257,12 @@ body {
     }
 
     #orcamento-button {
-        width: 150px;
-        height: 25px;
-        color: white;
-        font-size: 16px;
-        border-radius: 20px;
+        width: 160px;
+        height: 30px;
+        background-color: red;
         border: none;
-        background-color: #ff8800;
+        border-radius: 10px;
+        font-size: 17px;
     }
 
 }
