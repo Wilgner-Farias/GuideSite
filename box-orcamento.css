@@ -112,6 +112,26 @@ body {
     justify-content: center;
 }
 
+#nome {
+    height: 24px;
+}
+
+#box {
+    height: 24px; 
+}
+
+#vidro {
+    height: 24px;
+}
+
+#aluminio {
+    height: 24px;
+}
+
+#medida {
+    height: 24px;
+}
+
 .button-container {
     margin-top: 20px;
 }
