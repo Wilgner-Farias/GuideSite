@@ -248,6 +248,15 @@ body {
 /* Celular 600px */
 
 @media(max-width: 600px) {
+
+    .swiper-button-prev {
+        display: none;
+    }
+
+    .swiper-button-next {
+        display: none;
+    }
+
     .header-fixed {
         width: 100%;
         height: 60px;
@@ -326,7 +335,7 @@ body {
     /* Main */
 
     .text-main-container {
-        margin-top: 30px;
+        margin-top: 20px;
         width: 100%;
         height: 120px;
     }
@@ -364,14 +373,14 @@ body {
         justify-content: center;
         width: 100%;
         height: 40px;
-        margin-top: 40px;
+        margin-top: 10px;
     }
 
     .pdt-content {
         display: flex;
         justify-content: center;
         width: 90%;
-        height: 40px;
+        height: 20px;
     }
 
     .pdt-content p {
@@ -699,98 +708,6 @@ body {
         color: #ff8800;
     }
 
-    .img-opinion-div-1 {
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-        width: 100%;
-        height: 210px;
-    }
-
-    .img-opinion-content-1 {
-        display: flex;
-        justify-content: center;
-        width: 90%;
-        height: 210px;
-    }
-
-    #depoimento-1 {
-        width: 320px;
-        object-fit: cover;
-        border-radius: 10px;
-        box-shadow: 0px 17px 22px -3px rgba(0,0,0,0.1);
-    }
-
-    .img-opinion-div-2 {
-        display: flex;
-        justify-content: center;
-        margin-top: 40px;
-        width: 100%;
-        height: 210px;
-    }
-
-    .img-opinion-content-2 {
-        display: flex;
-        justify-content: center;
-        width: 90%;
-        height: 210px;
-    }
-
-    #depoimento-2 {
-        width: 320px;
-        object-fit: cover;
-        border-radius: 10px;
-        box-shadow: 0px 17px 22px -3px rgba(0,0,0,0.1);
-    }
-
-    .img-opinion-div-3 {
-        display: flex;
-        justify-content: center;
-        margin-top: 40px;
-        width: 100%;
-        height: 210px;
-    }
-
-    .img-opinion-content-3 {
-        display: flex;
-        justify-content: center;
-        width: 90%;
-        height: 210px;
-    }
-
-    #depoimento-3 {
-        width: 320px;
-        object-fit: cover;
-        border-radius: 10px;
-        box-shadow: 0px 17px 22px -3px rgba(0,0,0,0.1);
-    }
-
-    .img-opinion-div-4 {
-        display: flex;
-        justify-content: center;
-        margin-top: 40px;
-        width: 100%;
-        height: 210px;
-    }
-
-    .img-opinion-content-4 {
-        display: flex;
-        justify-content: center;
-        width: 90%;
-        height: 210px;
-    }
-
-    .btn-pjt {
-        margin-top: 20px;
-    }
-
-    #depoimento-4 {
-        width: 320px;
-        object-fit: cover;
-        border-radius: 10px;
-        box-shadow: 0px 17px 22px -3px rgba(0,0,0,0.1);
-    }
-
     .black-block {
         width: 100%;
         height: 470px;
@@ -882,7 +799,7 @@ body {
     #btn-map {
         width: 160px;
         height: 30px;
-        background-color: #00b60c;
+        background-color: #ff8800;
         border: none;
         border-radius: 10px;
         font-size: 17px;
