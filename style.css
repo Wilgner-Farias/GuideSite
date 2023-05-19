@@ -548,11 +548,6 @@ body {
         margin-top: 20px;
     }
 
-    .projeto-text p span {
-        font-family: 'Open Sans', sans-serif;
-        color: #ff8800;
-    }
-
     .projeto-1-container-img {
         display: flex;
         justify-content: center;
@@ -704,11 +699,6 @@ body {
         font-size: 23px;
     }
 
-    .opinion-text p span {
-        font-family: 'Open Sans', sans-serif;
-        color: #ff8800;
-    }
-
     .black-block {
         width: 100%;
         height: 470px;
@@ -732,11 +722,8 @@ body {
     }
 
     .localizacao-text p {
+        font-family: 'Open Sans', sans-serif;
         font-size: 23px;
-    }
-
-    .localizacao-text p span {
-        color: #ff8800;
     }
 
     .maps-container {
