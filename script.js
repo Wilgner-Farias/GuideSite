@@ -1,4 +1,4 @@
-// Orçamento Rápido
+
 
 function abrirWhatsapp() {
     var nome = document.getElementById('nome').value;
@@ -30,32 +30,25 @@ function boxOrc() {
   window.open(url, '_blank').focus();
 }
 
-// Atribuição de botões e janelas
-
-
-function abrirInfo1() {
-  document.querySelector('.info-1-content').style.display = 'block';
-  document.querySelector('.info-1-div').style.display = 'flex';
-};
-
-
-function fecharInfo1() {
-  document.querySelector('.info-1-content').style.display = 'none';
-  document.querySelector('.info-1-div').style.display = 'none';
-};
-
-function abrirInfo2() {
-  document.querySelector('.info-2-content').style.display = 'block';
-  document.querySelector('.info-2-div').style.display = 'flex';
-};
-
-
-function fecharInfo2() {
-  document.querySelector('.info-2-content').style.display = 'none';
-  document.querySelector('.info-2-div').style.display = 'none';
-};
-
-// 
-
-
+var TrandingSlider = new Swiper('.tranding-slider', {
+  effect: 'coverflow',
+  grabCursor: true,
+  centeredSlides: true,
+  loop: true,
+  slidesPerView: 'auto',
+  coverflowEffect: {
+    rotate: 0,
+    stretch: 0,
+    depth: 100,
+    modifier: 2.5,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  }
+});
 
