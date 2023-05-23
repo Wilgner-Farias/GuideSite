@@ -11,6 +11,34 @@ function abrirWhatsapp() {
     window.open(url, '_blank').focus();
   }
 
+  let menu = document.querySelector('.menu-options-div');
+
+  function abrirMenu() {
+    menu.classList.remove('menu-fechar');
+    menu.style.display = 'flex';
+  }
+
+  function menuAnimation() {
+    menu.classList.add('menu-fechar');
+    setTimeout(fecharMenu, 900);
+  }
+
+  function fecharMenu() {
+    let verificarDisplay = window.getComputedStyle(menu).getPropertyValue('display');
+    
+    if (verificarDisplay === 'flex') {
+      menu.style.display = 'none';
+    }
+  }
+
+  function menuButton() {
+    if (menu.style.display === 'none') {
+      abrirMenu();
+    } else {
+      menuAnimation();
+    }
+  }
+
 
 function boxOrc() {
   var nome = document.getElementById('nome').value;

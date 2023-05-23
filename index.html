@@ -12,6 +12,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,200" />
         <title>Guide Vidro e Alumínio</title>
     </head>
     <body>
@@ -22,18 +23,23 @@
                         <div class="logo-container">
                             <img id="logo-guide" src="images/logo-guide.png" alt="">
                         </div>
-                        
+                        <div class="menu-div">
+                            <img onclick="menuButton()" id="menu" src="images/menu.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="destaque">
-                <div class="destaque-contain">
-                    <div class="destaque-content">
-                        <div class="destaque-text">
-                            <span>De férias até o dia 03/01</span>
+            <div class="menu-options-div">
+                <div class="menu-contain">
+                    <div class="menu-content">
+                        <div class="option-1 options">
+                            <p>Opção 1</p>
                         </div>
-                        <div class="destaque-button">
-                            <button id="button-destq">Fechar</button>
+                        <div class="option-2 options">
+                            <p>Opção 2</p>
+                        </div>
+                        <div class="option-3 options">
+                            <p>Opção 3</p>
                         </div>
                     </div>
                 </div>
@@ -98,46 +104,56 @@
             </div>
             <div class="divisor"></div>
             <div class="white-block-1">
-                <div class="projetos">
-                    <div class="projeto-text">
-                        <p>Alguns dos nossos projetos</p>
+                <div class="opinion-container">
+                    <div class="opinion-text">
+                        <p>Depoimento de clientes</p>
                     </div>
                 </div>
-                <div class="projeto-1">
-                    <div class="projeto-1-container-img">
-                        <div class="projeto-1-img">
-                            <img id="projeto-1-image" src="produtos/guarda-corpo.jpg" alt="">
+                <section id="tranding">
+                    <div class="container">
+                      <div class="swiper tranding-slider">
+                        <div class="swiper-wrapper">
+                          <!-- Slide-start -->
+                          <div class="swiper-slide tranding-slide">
+                            <div class="tranding-slide-img" id="shadow-slide">
+                              <img src="images/depoimento.jpeg" alt="Tranding">
+                            </div>
+                          </div>
+                          <!-- Slide-end -->
+                          <!-- Slide-start -->
+                          <div class="swiper-slide tranding-slide">
+                            <div class="tranding-slide-img" id="shadow-slide">
+                              <img src="images/depoimento.jpeg" alt="Tranding">
+                            </div>
+                          </div>
+                          <!-- Slide-end -->
+                          <!-- Slide-start -->
+                          <div class="swiper-slide tranding-slide">
+                            <div class="tranding-slide-img" id="shadow-slide">
+                              <img src="images/depoimento.jpeg" alt="Tranding">
+                            </div>
+                          </div>
+                          <!-- Slide-end -->
+                           <!-- Slide-start -->
+                           <div class="swiper-slide tranding-slide">
+                            <div class="tranding-slide-img" id="shadow-slide">
+                              <img src="images/depoimento.jpeg" alt="Tranding">
+                            </div>
+                          </div>
+                          <!-- Slide-end -->
                         </div>
-                    </div>
-                    <div class="projeto-1-container-text">
-                        <div class="projeto-1-text">
-                            <p>Guarda-corpo na torre dourada</p>
+                        <div class="tranding-slider-control">
+                          <div class="swiper-button-prev slider-arrow">
+                            <ion-icon name="arrow-back-outline"></ion-icon>
+                          </div>
+                          <div class="swiper-button-next slider-arrow">
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                          </div>
+                          <div class="swiper-pagination"></div>
                         </div>
+                      </div>
                     </div>
-                </div>
-                <div class="projeto-2">
-                    <div class="projeto-2-container-img">
-                        <div class="projeto-2-img">
-                            <img id="projeto-2-image" src="produtos/igreja.jpeg" alt="">
-                        </div>
-                    </div>
-                    <div class="projeto-2-container-text">
-                        <div class="projeto-2-text">
-                            <p>Fachada de vidro</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="projeto-3">
-                    <div class="projeto-3-container-img">
-                        <div class="projeto-3-img">
-                            <img id="projeto-3-image" src="produtos/porta.jpeg" alt="">
-                        </div>
-                    </div>
-                    <div class="projeto-3-container-text">
-                        <div class="projeto-3-text">
-                            <p>Porta de vidro 3 folhas</p>
-                        </div>
-                    </div>
+                  </section>
                     <div class="button-pjt-div">
                         <div class="button-pjt-content">
                             <a href="formulario.html"><button id="btn-pjt">Solicitar orçamento</button></a>
@@ -148,7 +164,7 @@
             <div class="divisory"></div>
             <div class="opinion-container">
                 <div class="opinion-text">
-                    <p>Depoimento de clientes</p>
+                    <p>Linhas que trabalhamos</p>
                 </div>
             </div>
             <section id="tranding">
@@ -158,28 +174,28 @@
                       <!-- Slide-start -->
                       <div class="swiper-slide tranding-slide">
                         <div class="tranding-slide-img" id="shadow-slide">
-                          <img src="images/depoimento.jpeg" alt="Tranding">
+                          <img src="linhas/linha-suprema.jpeg" alt="Tranding">
                         </div>
                       </div>
                       <!-- Slide-end -->
                       <!-- Slide-start -->
                       <div class="swiper-slide tranding-slide">
                         <div class="tranding-slide-img" id="shadow-slide">
-                          <img src="images/depoimento.jpeg" alt="Tranding">
+                          <img src="linhas/linha-suprema.jpeg" alt="Tranding">
                         </div>
                       </div>
                       <!-- Slide-end -->
                       <!-- Slide-start -->
                       <div class="swiper-slide tranding-slide">
                         <div class="tranding-slide-img" id="shadow-slide">
-                          <img src="images/depoimento.jpeg" alt="Tranding">
+                          <img src="linhas/linha-suprema.jpeg" alt="Tranding">
                         </div>
                       </div>
                       <!-- Slide-end -->
                        <!-- Slide-start -->
                        <div class="swiper-slide tranding-slide">
                         <div class="tranding-slide-img" id="shadow-slide">
-                          <img src="images/depoimento.jpeg" alt="Tranding">
+                          <img src="linhas/linha-suprema.jpeg" alt="Tranding">
                         </div>
                       </div>
                       <!-- Slide-end -->
