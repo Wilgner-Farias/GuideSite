@@ -745,6 +745,44 @@ body {
         margin-top: 20px;
     }
 
+    .sobre-nos-div {
+      width: 100%;
+      height: 450px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .sobre-nos-content {
+      width: 90%;
+      height: 450px;
+    }
+
+    .sobre-nos-text {
+      width: 100%;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .sobre-nos-text p {
+      margin-top: 20px;
+      font-size: 23px;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .sobre-nos-img {
+      width: 100%;
+      height: 370px;
+      margin-top: 30px;
+    }
+
+    .sobre-nos-img img {
+      width: 100%;
+      height: 370px;
+      object-fit: cover;
+      border-radius: 30px;
+    }
+
     /* alterar */
     @media (max-width: 401px) {
         
