@@ -11,31 +11,18 @@ function abrirWhatsapp() {
     window.open(url, '_blank').focus();
   }
 
+  // menu
   let menu = document.querySelector('.menu-options-div');
 
-  function abrirMenu() {
-    menu.classList.remove('menu-fechar');
-    menu.style.display = 'flex';
-  }
-
-  function menuAnimation() {
-    menu.classList.add('menu-fechar');
-    setTimeout(fecharMenu, 900);
-  }
-
-  function fecharMenu() {
-    let verificarDisplay = window.getComputedStyle(menu).getPropertyValue('display');
-    
-    if (verificarDisplay === 'flex') {
-      menu.style.display = 'none';
-    }
-  }
-
   function menuButton() {
-    if (menu.style.display === 'none') {
-      abrirMenu();
+    if (menu.style.display === 'flex') {
+      menu.classList.add('menu-fechar');
+      setTimeout(() => {
+        menu.style.display = 'none'
+      },900)
     } else {
-      menuAnimation();
+      menu.classList.remove('menu-fechar');
+      menu.style.display = 'flex'
     }
   }
 
