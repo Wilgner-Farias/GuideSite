@@ -1,4 +1,21 @@
 
+const imgs = document.getElementById('img');
+const img = document.querySelectorAll('#img img');
+
+let idx = 0;
+
+function slide() {
+    idx++;
+    if(idx > img.length - 1) {
+        idx = 0;
+    }
+
+
+    imgs.style.transform = `translateX(${- idx * 250}px)`;
+}
+
+setInterval(slide, 2000);
+
 
 function abrirWhatsapp() {
     var nome = document.getElementById('nome').value;
