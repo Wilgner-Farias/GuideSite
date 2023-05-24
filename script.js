@@ -83,4 +83,3 @@ var TrandingSlider = new Swiper('.tranding-slider', {
     prevEl: '.swiper-button-prev',
   }
 });
-
