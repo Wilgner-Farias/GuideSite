@@ -370,6 +370,12 @@ body {
       }
     }
 
+    #depo-text {
+      color: black;
+    }
+
+
+
     .menu-contain {
       display: flex;
       justify-content: center;
@@ -404,6 +410,7 @@ body {
       margin-top: 15px;
     }
 
+
     /* Main */
 
     .text-main-container {
@@ -423,7 +430,8 @@ body {
         text-align: center;
         font-size: 25px;
         font-family: 'Open Sans', sans-serif;
-        color: #ff8800;
+        /* color: #ff8800; */
+        color: WHITE;
     }
 
     .text-main-content-2 {
@@ -435,7 +443,12 @@ body {
         width: 100%;
         height: 60px;
         font-size: 20px;
+        margin-top: 30px;
         
+    }
+
+    #shadow {
+      box-shadow: 0px 0px 23px 4px rgba(0,0,0,0.1);
     }
 
     .depo-desktop {
@@ -448,6 +461,9 @@ body {
 
     .text-main-content-2 span {
         font-family: 'Open Sans', sans-serif;
+        color: gray;
+        margin-top: 40px;
+        font-size: 15px;
     }
 
     .pdt-procurados {
@@ -611,7 +627,8 @@ body {
     .white-block-1 {
         width: 100%;
         height: 590px;
-        background-color: rgb(25, 25, 25);
+        /* background-color: rgb(25, 25, 25); */
+        background-color: #fff;
     }
 
     @media (min-width: 501px) {
@@ -668,6 +685,7 @@ body {
         font-family: 'Open Sans', sans-serif;
         font-size: 23px;
         margin-top: 20px;
+        color: white;
     }
 
     .lines-desktop {
@@ -677,7 +695,8 @@ body {
     .black-block {
         width: 100%;
         height: 470px;
-        background-color: rgb(25, 25, 25);
+        /* background-color: rgb(25, 25, 25); */
+        background-color: #fff;
     }
 
     .localizacao-div {
@@ -699,6 +718,7 @@ body {
     .localizacao-text p {
         font-family: 'Open Sans', sans-serif;
         font-size: 23px;
+        color: black;
     }
 
     .maps-container {
