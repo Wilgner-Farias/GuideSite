@@ -30,14 +30,22 @@ function abrirWhatsapp() {
 
   // menu
   let menu = document.querySelector('.menu-options-div');
+  let buttonMenuOpen = document.querySelector('#menu');
+  let buttonMenuClose = document.querySelector('#menu-fechar');
 
   function menuButton() {
     if (menu.style.display === 'flex') {
       menu.classList.add('menu-fechar');
+      buttonMenuClose.style.display = 'block';
+      buttonMenuOpen.style.display = 'none';
       setTimeout(() => {
         menu.style.display = 'none'
+        buttonMenuOpen.style.display = 'block';
+        buttonMenuClose.style.display = 'none';
       },900)
     } else {
+      buttonMenuClose.style.display = 'block';
+      buttonMenuOpen.style.display = 'none';
       menu.classList.remove('menu-fechar');
       menu.style.display = 'flex'
     }

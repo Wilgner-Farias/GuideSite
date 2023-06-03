@@ -239,6 +239,139 @@ body {
 }
 
 @media (max-width: 600px) {
+  .topo {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(28, 28, 28, 0.742);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    /* background-color: #00b60c; */
+  }
+  .esquerda {
+    width: 33.3%;
+    height: 60px;
+    /* background-color: #ec994b; */
+  }
+  .meio {
+    width: 33.3%;
+    height: 60px;
+    /* background-color: aqua; */
+  
+  }
+  .direita {
+    display: flex;
+    justify-content: end;
+    width: 33.3%;
+    height: 60px;
+    /* background-color: rgb(9, 73, 73); */
+  }
+  #menu {
+    display: block;
+    margin-top: 17.5px;
+    margin-right: 15px;
+    width: 27px;
+    height: 25px;
+  }
+
+  #menu-fechar {
+    display: none;
+    margin-top: 17.5px;
+    margin-right: 15px;
+    width: 27px;
+    height: 25px;
+  }
+  .menu-options-div {
+    width: 100%;
+    height: 190px;
+    display: none;
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    margin-top: 50px;
+    top: -100px;
+    animation: appear 1s forwards;
+    z-index: 999999;
+  }
+  .menu-fechar {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    top: -100px;
+    animation: disappear 1s forwards;
+    z-index: 999999;
+  }
+  @keyframes appear {
+    0% {
+      opacity: 0;
+      top: -100px;
+    }
+    100% {
+      opacity: 1;
+      top: 0;
+    }
+  }
+
+  @keyframes disappear {
+    0% {
+      opacity: 1;
+      top: 0;
+    }
+    100% {
+      opacity: 0;
+      top: -100px;
+    }
+  }
+  .menu-contain {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 160px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 10px;
+    background-color: rgba(28, 28, 28, 0.742);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    padding: 10px;
+  }
+
+  .menu-content {
+    width: 100%;
+    height: 280px;
+  }
+
+  .options {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #ff8800;
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+
+  }
+
+  .options p {
+    margin-top: 15px;
+  }
+  #botao-voltar { 
+    width: 55px;
+    height: 23px;
+    background-color: #ff8800;
+    color: #ffffff;
+    border: none;
+    border-radius: 11.5px;
+    margin-left: 15px;
+    margin-top: 18.5px;
+  }
+  #logoguide {
+    width: 120px;
+    margin-top: 12px;
+  }
     .swiper-button-prev {
         display: none;
     }
@@ -248,6 +381,7 @@ body {
     }
 
     .header-fixed {
+      display: none;
         width: 100%;
         height: 60px;
         background-color: rgb(28, 28, 28);
@@ -355,6 +489,12 @@ body {
 }
 
 @media (min-width: 601px) {
+  .topo {
+    display: none;
+  }
+  .menu-options-div {
+    display: none;
+  }
     .header-fixed {
         width: 100%;
         height: 40px;

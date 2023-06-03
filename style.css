@@ -311,10 +311,19 @@ body {
     }
 
     #menu {
+      display: block;
       margin-top: 15px;
       margin-left: 10px;
       width: 27px;
     }
+
+    #menu-fechar {
+      display: none;
+      margin-top: 15px;
+      margin-left: 10px;
+      width: 27px;
+    }
+
 
     .buttons-header {
       display: none;
